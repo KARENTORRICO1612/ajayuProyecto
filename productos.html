@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styleTable.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styleProduct.css" media="screen"/>
+</head>
+<body>
+    
+    <header class="header2">
+        <div class="menu container">
+            <a href="#" class="logo"> <img src="imagen/LOGOTIPO_ACTUAL_1-removebg-preview.png" class="menu-icono" alt=""></a>
+            <input type="checkbox" id="menu"/>
+            <!-- <label form="menu">
+                <img src="imagen/menu.png" class="menu-icono" alt="">
+            </label> -->
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="#">Servicios</a>
+                        <ul>
+                            <li><a href="Servicio1.html">Servicio 1</a></li>
+                            <li><a href="#">Servicio 2</a></li>
+                            <li><a href="#">Servicio 3</a></li>
+                            <li><a href="#">Servicio 4</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Cursos</a>
+                        <ul>
+                            <li><a href="curso1.html">Curso 1</a></li>
+                            <li><a href="#">Curso  2</a></li>
+                            <li><a href="#">Curso  3</a></li>
+                            <li><a href="#">Curso  4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="publicaciones.html">Publicaciones</a></li>
+                    <li><a href="contactanos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+   </header>
+
+
+   <div class="titulo">
+        <h1 class="titulo">CATEGORIAS</h1>
+   </div>
+   <section class="contenido">
+    <div class="mostrador" id="mostrador">
+        <div class="fila">
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img  class="img2" src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCOS</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img  class="img2" src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/06/tipos-de-guantes-casa-lima-peru.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">GUANTES</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+             <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img class="img2" src="https://d100mj7v0l85u5.cloudfront.net/s3fs-public/2023-02/elementos-de-proteccion-personal-de-salud-y-bioseguridad.jpg" alt="">
+                    <p class="descripcion">LENTES</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCO DE SEGURIDAD</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+        <div class="fila">
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCO DE SEGURIDAD</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCO DE SEGURIDAD</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCO DE SEGURIDAD</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="item" onclick="cargar(this)">
+                <!-- <div class="contenedor-foto"> -->
+                    <img src="https://i0.wp.com/grupocasalima.com/wp-content/uploads/2022/04/colores-casco-tipos.webp?resize=800%2C400&ssl=1" alt="">
+                    <p class="descripcion">CASCO DE SEGURIDAD</p>
+                    <!-- <span class="precio">$ 1.300</span> -->
+                <!-- </div> -->
+            </div>
+
+
+        </div> 
+    </div>
+    <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+    <div class="seleccion" id="seleccion">
+        <div class="cerrar" onclick="cerrar()">
+            &#x2715
+        </div>
+        <div class="info">
+            <img src="img/1.png" alt="" id="img">
+            <h2 id="modelo">NIKE MODEL 1</h2>
+            <p id="descripcion">Descripción Modelo 1</p>
+
+            <span class="precio" id="precio">$ 130</span>
+
+            <div class="fila">
+                <div class="size">
+                    <label for="">SIZE</label>
+                    <select name="" id="">
+                        <option value="">P</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                    </select>
+                </div>
+                <!-- <button>AGREGAR AL CARRITO</button> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+<script src="scriptProdutc.js"></script>
+
+
+</body>
+</html>
